@@ -1,0 +1,7 @@
+---
+spring:
+  application:
+    name: messageSender
+  cloud:
+    config:
+      uri: http://localhost:8001
