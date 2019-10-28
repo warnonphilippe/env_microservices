@@ -5,6 +5,8 @@ docker rabbit MQ
 ----------------
 docker-compose -f rabbit.yml up -d
 
+http://localhost:15672/#/
+
 
 console RabbiqMQ
 -----------------
