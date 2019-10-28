@@ -8,8 +8,11 @@ docker-compose -f rabbit.yml up -d
 http://localhost:15672/#/
 
 
-console RabbiqMQ
------------------
+bat RabbiqMQ
+------------
+
+    console
+    --------------
     rabbitmq-plugins.bat enable rabbitmq_management
 
     http://localhost:15672 (guest/guest)
