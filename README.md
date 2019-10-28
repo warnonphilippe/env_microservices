@@ -1,6 +1,12 @@
 Test Recrutement en microservices
 ---------------------------------
 
+docker rabbit MQ
+----------------
+docker-compose -f rabbit.yml up -d
+
+
+
 console RabbiqMQ
 -----------------
 rabbitmq-plugins.bat enable rabbitmq_management
@@ -16,7 +22,6 @@ stop server
 rabbitmqctl.bat stop
 
 rabbitmqctl.bat shutdown
-
 
 reset queues
 ------------
